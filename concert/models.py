@@ -65,15 +65,3 @@ class Song(models.Model):
 
     def __str__(self):
         return self.title
-
-
-class Song(models.Model):
-    # id
-    # title
-    # lyrics
-
-    class Meta:
-        managed = False
-
-    def __str__(self):
-        return self.title
